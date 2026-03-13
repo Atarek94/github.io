@@ -301,6 +301,7 @@
     padding: 2rem; cursor: pointer;
     transition: transform 0.25s, box-shadow 0.25s;
     position: relative; overflow: hidden;
+    display: block; text-decoration: none; color: inherit;
   }
   .project-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(44,26,14,0.1); }
   .project-card::after {
@@ -515,7 +516,7 @@
       <div class="detail-item">
         <div class="detail-icon">📧</div>
         <div class="detail-text">
-          <strong>Email</strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1475713a607566717f2d202d20547379757d783a777b79">[email&#160;protected]</a>
+          <strong>Email</strong>ae.tarek9494@gmail.com
         </div>
       </div>
       <div class="detail-item">
@@ -626,7 +627,7 @@
   <div class="section-label">Projects</div>
   <h2>Selected <em>work</em></h2>
   <div class="projects-grid">
-    <div class="project-card">
+    <a class="project-card" href="https://github.com/Atarek94/Singapore-house-price-prediction" target="_blank">
       <div class="project-num">01</div>
       <div class="project-title">Singapore House Price Prediction</div>
       <div class="project-desc">Built and compared four ML regression models to predict HDB resale prices across Singapore using 226,000+ records. Applied feature engineering, one-hot encoding, outlier treatment, and cross-validation. The Decision Tree Regressor achieved the best performance with R² of 0.91, RMSE of 52,021 and MAE of 34,989.</div>
@@ -634,49 +635,52 @@
         <span class="tag">Python</span><span class="tag">Scikit-Learn</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Machine Learning</span>
       </div>
       <div style="margin-top:1.2rem;">
-        <a href="https://data.gov.sg/datasets?topics=housing&resultId=189" target="_blank" style="font-size:0.75rem;color:var(--bark);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--clay);padding-bottom:2px;">View Dataset ↗</a>
+        <span style="font-size:0.75rem;color:var(--bark);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;border-bottom:1px solid var(--clay);padding-bottom:2px;">View on GitHub ↗</span>
       </div>
-    </div>
-    <div class="project-card">
+    </a>
+    <a class="project-card" href="https://github.com/Atarek94/Passto-marketing-metrics-dashboard" target="_blank">
       <div class="project-num">02</div>
-      <div class="project-title">Marketing Campaign Dashboard</div>
-      <div class="project-desc">Designed a real-time Tableau dashboard for the Vibra Media marketing team, consolidating multi-source campaign data and reducing manual reporting time by over 60%.</div>
+      <div class="project-title">Passto Marketing Metrics Dashboard</div>
+      <div class="project-desc">Built a 6-section interactive Tableau dashboard for Passto (FCA-regulated fintech) using the AARRR Pirate Metrics framework, covering Activation, Operation Efficiency, Retention, Customer Satisfaction, Referral & Virality, and Customer Demographics.</div>
       <div class="project-tags">
-        <span class="tag">Tableau</span><span class="tag">SQL</span><span class="tag">Marketing Analytics</span>
+        <span class="tag">Tableau</span><span class="tag">AARRR Framework</span><span class="tag">SQL</span><span class="tag">Fintech</span>
       </div>
-    </div>
-    <div class="project-card">
+      <div style="margin-top:1.2rem;">
+        <span style="font-size:0.75rem;color:var(--bark);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;border-bottom:1px solid var(--clay);padding-bottom:2px;">View on GitHub ↗</span>
+      </div>
+    </a>
+    <a class="project-card" href="https://github.com/Atarek94" target="_blank">
       <div class="project-num">03</div>
       <div class="project-title">Automated Data Extraction Suite</div>
       <div class="project-desc">Developed 10+ Python scripts to automate repetitive data extraction workflows, achieving a 45% reduction in extraction time and freeing analysts for higher-value tasks.</div>
       <div class="project-tags">
         <span class="tag">Python</span><span class="tag">Automation</span><span class="tag">SQL</span>
       </div>
-    </div>
-    <div class="project-card">
+    </a>
+    <a class="project-card" href="https://github.com/Atarek94" target="_blank">
       <div class="project-num">04</div>
       <div class="project-title">Churn Prediction Model</div>
       <div class="project-desc">Applied machine learning (XGBoost + sklearn) to predict customer churn, leveraging 5 years of analytics intuition to engineer meaningful features from behavioural data.</div>
       <div class="project-tags">
         <span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ML</span><span class="tag">sklearn</span>
       </div>
-    </div>
-    <div class="project-card">
+    </a>
+    <a class="project-card" href="https://github.com/Atarek94" target="_blank">
       <div class="project-num">05</div>
       <div class="project-title">Data Quality Framework</div>
       <div class="project-desc">Designed and implemented a systematic data cleansing and validation framework at Vibra Media, resolving recurring quality issues and improving overall data reliability by 30%.</div>
       <div class="project-tags">
         <span class="tag">Python</span><span class="tag">Data Quality</span><span class="tag">SQL</span>
       </div>
-    </div>
-    <div class="project-card">
+    </a>
+    <a class="project-card" href="https://github.com/Atarek94" target="_blank">
       <div class="project-num">06</div>
       <div class="project-title">Analyst Training Programme</div>
       <div class="project-desc">Designed and delivered a structured training curriculum for 8 junior analysts covering Tableau, Power BI and SQL best practices — improving team efficiency by 20%.</div>
       <div class="project-tags">
         <span class="tag">Tableau</span><span class="tag">Power BI</span><span class="tag">Mentorship</span>
       </div>
-    </div>
+    </a>
   </div>
 </section>
 
@@ -709,9 +713,9 @@
     <div>
       <p class="contact-desc">I'm actively exploring Data Science and Machine Learning opportunities. Whether you have a role, a project, or just want to connect — I'd love to hear from you.</p>
       <div class="contact-items">
-        <a href="/cdn-cgi/l/email-protection#6f0e0a411b0e1d0a04565b565b2f08020e0603410c0002" class="contact-item">
+        <a href="mailto:ae.tarek9494@gmail.com" class="contact-item">
           <div class="contact-item-icon">✉️</div>
-          <span class="__cf_email__" data-cfemail="f59490db819487909eccc1ccc1b59298949c99db969a98">[email&#160;protected]</span>
+          ae.tarek9494@gmail.com
         </a>
         <a href="tel:+201100251720" class="contact-item">
           <div class="contact-item-icon">📞</div>
